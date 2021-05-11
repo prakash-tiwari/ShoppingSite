@@ -1,6 +1,7 @@
 {
   "name": "shopping-cart",
   "version": "0.1.0",
+  "homepage": "https://prakash-tiwari.github.io/ShoppingSite",
   "private": true,
   "description": "this is for shopping ",
   "author": "prakash-tiwari@outlook.com",
@@ -15,6 +16,7 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "gh-pages": "^3.1.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-query": "^3.16.0",
