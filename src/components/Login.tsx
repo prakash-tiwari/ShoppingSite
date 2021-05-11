@@ -25,7 +25,9 @@ const Login=() =>{
     const AboutPage = () =>
     {
         if(mailId==="prakash" && pwd ==="prakash")
+        {             
             history.push('/main');
+        }
         else
          {  
              setErrorValue(true)

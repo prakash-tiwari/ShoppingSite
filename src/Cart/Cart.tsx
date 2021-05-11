@@ -1,6 +1,6 @@
 import CartItem from '../CartItem/CartItem';
 import { Wrapper } from './Cart.styles';
-import { CartItemType } from '../components/ShoppingPage';
+import { CartItemType } from '../ShoppingPage/ShoppingPage';
 import Typography from '@material-ui/core/Typography';
 import Divider from '@material-ui/core/Divider';
 import Button  from '@material-ui/core/Button';
@@ -48,10 +48,6 @@ const Cart: React.FC<Props> = ({ cartItems, addToCart, removeFromCart }) => {
       setModalVal(false);
     };
 
-    const handleOpen = () => {
-      setModalVal(true);
-    };
-    
     const ModalBody = (
          <Card style={{
                 alignItems: "center",         
@@ -78,8 +74,7 @@ const Cart: React.FC<Props> = ({ cartItems, addToCart, removeFromCart }) => {
       setModalText("Thank you for shopping with us... ")
       setModalVal(true);             
     }
-  else{
-    
+  else{    
     setModalText("Your cart is empty...");
     setModalVal(true);
   }

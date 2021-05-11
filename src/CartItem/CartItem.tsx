@@ -3,7 +3,7 @@ import ButtonGroup from '@material-ui/core/ButtonGroup';
 import Divider from '@material-ui/core/Divider';
 
 // Types
-import { CartItemType } from '../components/ShoppingPage';
+import { CartItemType } from '../ShoppingPage/ShoppingPage';
 // Styles
 import { Wrapper } from './CartItem.styles';
 
