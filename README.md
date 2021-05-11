@@ -1,6 +1,10 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### `Steps`
+- _Sign In with userName "prakash" and password "prakash"._
+- _When user clicks checkout, then modal will popup( with different message for empty cart and non-empty cart)._
+- _LogOut will redirect you to the login page._
+
 
 ## Available Scripts
 
