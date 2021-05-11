@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
         border-radius: 8px;
         object-fit: cover;
         padding: 20px;
-        width: inherit;        
+        width: 300px;        
         margin: auto;
         height: 300px;     
         objectFit: 'cover';   
