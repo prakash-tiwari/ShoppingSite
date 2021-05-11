@@ -102,7 +102,7 @@ const About = () => {
 
   // logging out the user...
   const callLogOut = () => {
-        history.push('/');
+        history.push('/ShoppingSite');
   }
 
   if (isLoading) return <LinearProgress />;

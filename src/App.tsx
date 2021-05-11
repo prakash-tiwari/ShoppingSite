@@ -13,7 +13,7 @@ const App = () => {
       <Switch>
         <Route 
         exact={true}
-        path="/">
+        path="/ShoppingSite">
             <Login />
         </Route>
         <Route 
